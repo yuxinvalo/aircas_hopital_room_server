@@ -10,7 +10,7 @@ import java.util.Random;
 public class TestClient implements Runnable {
 	int i = 0;
 	public static void main(String[] args) {
-	        for(int i = 0; i < 5; ++i){
+	        for(int i = 0; i < 10; ++i){
 	        	System.out.println("Index: " + i);
 	        	TestClient tc = new TestClient();
 	        	tc.i = 0;
